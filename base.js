@@ -1,6 +1,6 @@
-const { getInput } = require('../input');
+const { getInput, getTestInput } = require('../input');
 
-var tdata = [];
+var tdata = getTestInput("day_"); // Update with correct day
 var rdata = getInput("day_"); // Update with correct day
 var answer;
 
