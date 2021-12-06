@@ -2,16 +2,38 @@ const { getInput, getTestInput } = require('../input');
 
 var tdata = getTestInput("day_"); // Update with correct day
 var rdata = getInput("day_"); // Update with correct day
-var answer;
+var answer = 0;
 
-function part1(data) {
+function logData() {
+}
 
+function clearData() {
+}
+
+function parseData(data) {
+}
+
+function solve(part2 = false) {
+    
     return answer;
 }
 
-function part2(data) {
+function part1(data) {
+    clearData();
+    
+    parseData(data);
+    // logData();
 
-    return answer;
+    return solve();
+}
+
+function part2(data) {
+    clearData();
+    
+    parseData(data);
+    // logData();
+
+    return solve(true);
 }
 
 console.log("The answer for Part 1 Test is:", part1(tdata));
