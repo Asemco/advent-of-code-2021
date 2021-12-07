@@ -1,4 +1,4 @@
-const { getInput, getTestInput } = require('../input');
+const { getInput, getTestInput } = require('../util');
 
 var tdata = getTestInput("day4"); // Update with correct day
 var rdata = getInput("day4"); // Update with correct day

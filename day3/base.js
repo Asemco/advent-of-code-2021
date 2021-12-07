@@ -1,4 +1,4 @@
-const { getInput } = require('../input');
+const { getInput } = require('../util');
 
 var tdata = [
     "00100",
