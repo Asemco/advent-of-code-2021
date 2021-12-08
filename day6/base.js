@@ -17,6 +17,7 @@ function clearData() {
     addFish = 0;
     totalFish = 0;
     fish = [];
+    originalFish = [];
 }
 
 
