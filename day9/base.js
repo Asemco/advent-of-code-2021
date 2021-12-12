@@ -28,7 +28,6 @@ function parseData(data) {
         flows.push(line.split(""));
         baseTouched.push(new Array(line.split("").length).fill(false));
     });
-    
 }
 
 // function verticalSearch(line, basin, lIndex, i, lookLeft) {
