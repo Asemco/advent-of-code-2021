@@ -31,9 +31,18 @@ function clone(a) {
     return JSON.parse(JSON.stringify(a));
 }
 
+function getSetDifference(setA, setB) {
+    let _difference = new Set(setA)
+    for (let elem of setB) {
+        _difference.delete(elem)
+    }
+    return _difference
+}
+
 module.exports = {
     getInput,
     getTestInput,
     arrayRotate,
-    clone
+    clone,
+    getSetDifference
 };
