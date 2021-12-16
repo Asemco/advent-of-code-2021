@@ -1,4 +1,4 @@
-const { getInput, getTestInput } = require('../util');
+const { getInput, getTestInput, clone } = require('../util');
 
 var tdata = getTestInput("day11"); // Update with correct day
 var rdata = getInput("day11"); // Update with correct day
@@ -168,7 +168,7 @@ function solve(part2 = false) {
         }
     } else {
         for (let i = 0; i < 10000000; i++) {      
-            flashed = JSON.parse(JSON.stringify(baseFlashed))
+            flashed = clone(baseFlashed);
             octos.forEach((line, yAxis) => {
                 line.forEach((octo, xAxis) => {
 

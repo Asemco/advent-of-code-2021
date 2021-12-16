@@ -27,8 +27,13 @@ function arrayRotate(arr, reverse) {
     return arr;
 }
 
+function clone(a) {
+    return JSON.parse(JSON.stringify(a));
+}
+
 module.exports = {
     getInput,
     getTestInput,
-    arrayRotate
+    arrayRotate,
+    clone
 };
